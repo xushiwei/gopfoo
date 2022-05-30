@@ -1,0 +1,14 @@
+package gopfoo_test
+
+import (
+	"testing"
+
+	"github.com/xushiwei/gopfoo"
+)
+
+func TestReverseMap(t *testing.T) {
+	out := gopfoo.ReverseMap({"b": 2})
+	if len(out) != 1 || out[2] != "b" {
+		t.Fatal("ReverseMap failed:", out)
+	}
+}
