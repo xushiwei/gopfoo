@@ -15,4 +15,5 @@
 # vendor/
 
 go.mod
+go.sum
 gop_autogen*.go
